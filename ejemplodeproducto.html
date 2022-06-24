@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/styles.css">
     <title>KAWAII NO JUTSU - Tienda otaku online</title>
 </head>
@@ -11,7 +12,7 @@
     <!-- Aquí empieza el header + el logo -->
     <header class="cabecera">
         <nav class="cabecera__nav">
-            <img class="nav__logo" src="Imagen/logo negro.png" alt="logo principal en negro">  
+            <img class="nav__logo" data-aos="zoom-out-right" src="Imagen/logo negro.png" alt="logo principal en negro">   
             <ul class="cabecera__nav">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="historia.html">HISTORIA</a></li>
@@ -82,5 +83,9 @@
     </section>
 </footer>
 <!-- Aquí temrina el footer -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
