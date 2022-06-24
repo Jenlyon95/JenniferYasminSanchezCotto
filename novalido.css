@@ -1,0 +1,274 @@
+/* Aquí empieza el header + LOGO + NAV */
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+@font-face {
+    font-family: kawaiistitch;
+    src: url(Fonts/Kawaii-Stitch.ttf);
+}
+header {
+width: 100%;
+margin: auto;
+justify-content: space-between;
+height: 151px;
+background-color: rgba(255, 255, 255, 0.5); 
+position: absolute;
+z-index: 1000; 
+}
+
+header nav {
+    display: flex;
+}
+
+header nav img {
+    display: flex;
+    height: 50%;
+    margin-left: 180px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 180px;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 70px;
+    margin-left: 75px;
+    margin-bottom: 2px;
+    font-weight: normal;
+    font-size: 150%;
+    font-family: 'kawaiistitch';
+    }
+header nav ul li {
+    display: inline;
+    margin-right: 5%;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(3, 185, 206);
+}
+header nav ul li a:hover {
+    color: rgb(255, 77, 216);
+    transition: 500ms;
+}
+/* Aquí termina el header + LOGO + NAV */
+
+/* Aquí empieza el cuerpo */
+main {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height: 1400px;
+} 
+main section article img {
+    display: flex;
+    width: 1800px;
+    height: 900px;
+    margin-top: -100px;
+}
+.headercategorias {
+    display: flex;
+    text-align: center;
+    font-weight: normal;
+    font-size: 150%;
+    font-family: 'kawaiistitch';
+    color: rgb(3, 185, 206);
+    margin-top: 50px;
+    margin-left: 705px;
+    
+}
+.productosinicio {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-style: double; color: rgb(255, 77, 216);
+    box-shadow: 5px 5px 15px 5px #ec5aff81;
+}
+.headerhistoria {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(./Imagen/star\ guardian\ jinx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px black;
+    justify-content: center;
+}
+.conocenos {
+    display: flex;
+    align-items: center;
+    font-family: 'KawaiiStitch';
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -350px;
+}
+
+.imagenconocenos {
+    display: flex;
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    
+}
+.headerproducto {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(./Imagen/tr\ regalos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px black;
+    justify-content: center;
+}
+.producto {
+    display: flex;
+    margin-top: 90px;
+    height: 500px;
+    width: 500px;
+    margin-left: 190px;
+    margin-bottom: 20px;
+}
+.headercontacto {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(./Imagen/envelope.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+    font-family: 'KawaiiStitch';
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.formulario {
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: rgb(221, 222, 223);
+    box-shadow: 5px 9px 10px 1px rgba(182, 182, 182, 0.59);
+    padding: 90px;
+    line-height: 10px;
+    justify-content: center;
+    padding: 20px 20px;
+    
+}
+.campos {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(221, 222, 223);
+    margin-bottom: 20px;
+}
+.headercat {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(./Imagen/naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+}
+.productoscategorias {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-style: double; color: rgb(255, 77, 216);
+    box-shadow: 5px 5px 15px 5px #ec5aff81;
+    margin-bottom: -150px;
+}
+/* Aquí termina el cuerpo */
+
+/* Aquí empieza el FOOTER */
+
+footer {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+} 
+.copyright {
+    display: flex;
+    font-family: 'kawaiistitch';
+    color: rgb(3, 185, 206);
+    font-size: 50%;
+    margin-left: 70px;
+}
+.navfooter {
+    display: flex;
+    font-family: 'kawaiistitch';
+    color: rgb(3, 185, 206);
+    font-size: 75%;
+    margin-left: 110px;
+}
+footer nav ul li a {
+    text-decoration: none;
+    color: rgb(3, 185, 206);
+}
+footer nav ul li a:hover {
+    color: rgb(255, 77, 216);
+    transition: 500ms;
+}
+.logofooter {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    margin-left: 188px;
+    margin-block-end: 45px;
+}
+.avisolegal {
+    display: flex;
+    font-family: 'kawaiistitch';
+    color: rgb(3, 185, 206);
+    font-size: 75%;
+    margin-left: 110px;
+}
+footer td ul li a {
+    text-decoration: none;
+    color: rgb(3, 185, 206);
+}
+footer td ul li a:hover {
+    color: rgb(255, 77, 216);
+    transition: 500ms;
+}
+/* Aquí termina el FOOTER */
