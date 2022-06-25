@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="Imagen/logo blanco.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>KAWAII NO JUTSU - Tienda otaku online</title>
 </head>
-<body>
+<body class="container-fluid">
     <!-- Aquí empieza el header + el logo -->
     <header class="cabecera">
         <nav class="cabecera__nav">
@@ -20,23 +21,87 @@
                 <li><a href="categorias.html">CATEGORIAS</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
-        </nav>
     </header>
     <!-- Aquí termina el header + el logo -->
-    <main>
-        <section class="heroinicio">
-            <article>
-                <h2>Bienevenidxs a <br> Kawaii no jutsu </h2><br></h2>
-            </article>
-        </section>
+    <main class="fondoprincipal">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Imagen/slider/slider 1.png" class="d-block w-100" alt="Foto de bienvenida a la web">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagen/slider/slider 2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./Imagen/slider/slider 3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        
             <div class="catgaleria__titulo"><h2>CATEGORÍAS</h2></div>
-        <section class="catgaleria">
-            <div> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/sudadera sasuke.jpg" alt="sudadera de sasuke naruto"> </div>
-            <div> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/bolsos bobba.png" alt="sudadera de sasuke naruto"> </div>
-            <div> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/CAMISE~1.PNG" alt="sudadera de sasuke naruto"> </div>
-            <div> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/taza gato.png" alt="sudadera de sasuke naruto"> </div>
+        <section class="catgaleria" class="row justify-content-center align-items-center">
+            <div class="col-3 col-md-4 col-xl-4"> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/sudadera sasuke.jpg" alt="sudadera de sasuke naruto"> </div>
+            <div class="col-3 col-md-4 col-xl-4"> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/bolsos bobba.png" alt="sudadera de sasuke naruto"> </div>
+            <div class="col-3 col-md-4 col-xl-4"> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/CAMISE~1.PNG" alt="sudadera de sasuke naruto"> </div>
+            <div class="col-3 col-md-4 col-xl-4"> <img class="catgaleria__img" data-aos="flip-right" src="./Imagen/taza gato.png" alt="sudadera de sasuke naruto"> </div>
             
         </section>
+        <div class="catgaleria__titulo mt-4"><h2>F.A.Q</h2></div>
+        <section class="catgaleria__titulo mt-4">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Los envíos son internacionales?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>¡Si!</strong> Hemos trabajado duro para traeros los mejores productos, a un precio accesible y con la posibilidad de envío o recogida a todas partes del mundo.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Puedo devolver los productos si no me gustan?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>¡Obvio!</strong> En Kawaii no jutsu solo queremos haceros la vida más fácil. Es por eso que si recibes tus productos y no te gustan o no te convencen, te devolvemos tú dinero y nos encargamos de los portes de las devoluciones.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Tengo que tener tarjeta de crédito para pagar?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>¡NO!</strong> Tenemos en cuenta que en algunos paises las tarifas por pagos con tarjeta son más complicadas, es por ello que hemos habilitado el pago con paypal, mercadopago, bizzum, tranferencia bancaria y ¡como novedad! a contrareembolso y en efectivo.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div>
+            <div class="row justify-content-center mt-4 mb-4">
+                <div class="col-4 col-md-4 col-xl-4"><img class="img-fluid" src="./Imagen/sostenible.png" alt="imagen del panda sostenible">
+                <p class="col-4 col-md-4 col-xl-4 p-md-2 p-5 avisolegal">Todos nuestros productos son sostenibles y respetan los estándares de fabricación cruelty-free</p>
+                <div class="col-4 col-md-4 col-xl-4 p-md-3  mt-xl-0"> <img class="img-fluid"  src="./Imagen/crueltyfree.png" alt="logo cruelty free">
+            </div>
+        </div>
     </main>
 <!-- Aquí empieza el footer -->
 <footer class="footer">
@@ -72,6 +137,8 @@
 <script>
     AOS.init();
 </script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -144,8 +144,8 @@
     display: flex;
     font-family: 'kawaiistitch';
     color: rgb(3, 185, 206);
-    font-size: 75%;
-    margin-left: 110px;
+    fosize: 75%;
+    margin-left: 110px;nt-
 }
 /* Aquí termina el footer */
 .herocontacto {
@@ -745,4 +745,13 @@
         border-radius: 5px;
         border-color: rgb(221, 222, 223);
     }
+.fondoprincipal {
+    background-color: black;
+}
+.accordion-item {
+    background-color: black;
+}
+.textoacordeon {
+    font-family: 'kawaiistitch';
+    color: rgb(3, 185, 206);
 }

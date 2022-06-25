@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/CSS/styles.css">
     <title>KAWAII NO JUTSU - Tienda otaku online</title>
 </head>
-<body>
+<body class="container-fluid">
     <!-- Aquí empieza el header + el logo -->
     <header class="cabecera">
         <nav class="cabecera__nav">
@@ -27,6 +28,27 @@
             <h2>CONTACTO</h2> 
         </section>
         <article>
+            <h2  class="contactotxt">¡Encuéntranos!<h2>
+        </article>
+       <div class="row">
+        <div class="card col-3 col-md-4 col-xl-4" style="width: 18rem;">
+            <img src="./Imagen/españa.webp" class="card-img-top" alt="bandera de españa">
+            <div class="card-body">
+              <h5 class="card-title">Sede en España</h5>
+              <p class="card-text">Estaremos encantados de atenederte en crrtra. de caninallas 138 (Madrid)</p>
+              <a href="#" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-info">ENVIAR</button>
+          <div class="card col-3 col-md-4 col-xl-4" style="width: 18rem;">
+            <img src="./Imagen/argentina.png" class="card-img-top" alt="bandera de argentina">
+            <div class="card-body">
+              <h5 class="card-title">Sede en Argentina</h5>
+              <p class="card-text">Esteremos encantados de atenderte en Av. de la Independencia 125 (Buenos Aires)</p>
+              <a href="#" class="btn btn-primary">Más información</a>
+            </div>
+          </div> 
+        <article>
             <h2  class="contactotxt">¿TIENES ALGUNA DUDA?</h2>
         </article>
         <section class="contacto">
@@ -38,6 +60,9 @@
                     Mensaje:<input class="campos" type="text" size="20" name="Mensaje"><br>
                 </form>
             </article>
+            <div>
+                <button type="button" class="btn btn-outline-info">ENVIAR</button>
+              </div>
             <article class="contactotxt">
                 <h3>¡Contáctanos!</h3>
                 <table>
