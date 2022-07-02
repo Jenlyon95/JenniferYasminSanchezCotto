@@ -1,0 +1,936 @@
+.cabecera {
+  display: grid;
+  width: 100%;
+}
+
+.cabecera__nav {
+  display: flex;
+  width: 100%;
+  height: 151px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  font-family: "KawaiiStitch";
+  font-size: 25px;
+}
+@media screen and (max-width: 1080px) {
+  .cabecera__nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: "KawaiiStitch";
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cabecera__nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: "KawaiiStitch";
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cabecera__nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: "KawaiiStitch";
+    font-size: 8px;
+    padding-left: 17px;
+  }
+}
+.cabecera__nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.cabecera__nav li {
+  display: inline;
+  margin-right: 5%;
+}
+.cabecera__nav a {
+  text-decoration: none;
+  color: rgb(3, 185, 206);
+}
+.cabecera__nav:hover {
+  color: rgb(255, 77, 216);
+  transition: 500ms;
+}
+
+.nav__logo {
+  height: 75%;
+  padding-left: 50px;
+}
+@media screen and (max-width: 1080px) {
+  .nav__logo {
+    height: 75%;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nav__logo {
+    height: 75%;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav__logo {
+    height: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.hero {
+  display: flex;
+  height: auto;
+  width: 100%;
+  min-height: 500px;
+  align-items: center;
+  background-image: url(/Imagen/naruto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 38% 42%;
+  font-family: "KawaiiStitch";
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  justify-content: center;
+}
+@media screen and (max-width: 1080px) {
+  .hero {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+  }
+}
+
+.heroinicio {
+  display: flex;
+  height: auto;
+  width: 100%;
+  min-height: 500px;
+  align-items: center;
+  background-image: url(/Imagen/Totoro\ slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 38% 42%;
+  font-family: "KawaiiStitch";
+  font-size: 50px;
+  color: rgb(255, 77, 216);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  justify-content: center;
+}
+@media screen and (max-width: 1080px) {
+  .heroinicio {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/Totoro\ slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 40px;
+    color: rgb(255, 77, 216);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .heroinicio {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    background-image: url(/Imagen/Totoro\ slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 30px;
+    color: rgb(255, 77, 216);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .heroinicio {
+    display: flex;
+    height: auto;
+    width: 120%;
+    background-image: url(/Imagen/Totoro\ slider.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "KawaiiStitch";
+    font-size: 18px;
+    color: rgb(255, 77, 216);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  }
+}
+
+.herocontacto {
+  display: flex;
+  height: auto;
+  width: 100%;
+  min-height: 500px;
+  align-items: center;
+  background-image: url(/Imagen/envelope.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 38% 42%;
+  font-family: "KawaiiStitch";
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  justify-content: center;
+}
+@media screen and (max-width: 1080px) {
+  .herocontacto {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    background-image: url(/Imagen/envelope.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .herocontacto {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    background-image: url(/Imagen/envelope.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .herocontacto {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/envelope.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+  }
+}
+
+.headerhistoria {
+  display: flex;
+  height: 500px;
+  width: 2000px;
+  align-items: center;
+  background-image: url(/Imagen/star\ guardian\ jinx.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 38% 42%;
+  font-family: "KawaiiStitch";
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 10px black;
+  justify-content: center;
+}
+@media screen and (max-width: 1080px) {
+  .headerhistoria {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(/Imagen/star\ guardian\ jinx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px black;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .headerhistoria {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(/Imagen/star\ guardian\ jinx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px black;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .headerhistoria {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(/Imagen/star\ guardian\ jinx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: "KawaiiStitch";
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px black;
+    justify-content: center;
+  }
+}
+
+.heropro {
+  display: flex;
+  height: 500px;
+  width: 2000px;
+  align-items: center;
+  background-image: url(/Imagen/tr\ regalos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "KawaiiStitch";
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 10px black;
+  justify-content: center;
+}
+
+.catgaleria {
+  display: grid;
+  background-color: black;
+  grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width: 1080px) {
+  .catgaleria {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  .catgaleria {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .catgaleria {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+}
+.catgaleria .catgaleria__img {
+  display: flex;
+  width: 350px;
+  height: 350px;
+  margin-top: 25px;
+  margin-left: 30px;
+  border-style: double;
+  color: rgb(255, 77, 216);
+  box-shadow: 5px 5px 15px 5px rgba(236, 90, 255, 0.5058823529);
+}
+@media screen and (max-width: 1080px) {
+  .catgaleria .catgaleria__img {
+    display: flex;
+    width: 320px;
+    height: 320px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-style: double;
+    color: rgb(255, 77, 216);
+    box-shadow: 5px 5px 15px 5px rgba(236, 90, 255, 0.5058823529);
+  }
+}
+@media screen and (max-width: 800px) {
+  .catgaleria .catgaleria__img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-style: double;
+    color: rgb(255, 77, 216);
+    box-shadow: 5px 5px 15px 5px rgba(236, 90, 255, 0.5058823529);
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .catgaleria .catgaleria__img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-style: double;
+    color: rgb(255, 77, 216);
+    box-shadow: 5px 5px 15px 5px rgba(236, 90, 255, 0.5058823529);
+    align-items: center;
+  }
+}
+
+.catgaleria__titulo {
+  display: flex;
+  text-align: center;
+  font-weight: normal;
+  font-size: 150%;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  background-color: black;
+  justify-content: center;
+  padding-top: 20px;
+}
+@media screen and (max-width: 1080px) {
+  .catgaleria__titulo {
+    display: flex;
+    text-align: center;
+    font-weight: normal;
+    font-size: 150%;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    background-color: black;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .catgaleria__titulo {
+    display: flex;
+    text-align: center;
+    font-weight: normal;
+    font-size: 150%;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    background-color: black;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .catgaleria__titulo {
+    display: flex;
+    text-align: center;
+    font-weight: normal;
+    font-size: 80%;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    background-color: black;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+.historiagrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "KawaiiStitch";
+  color: azure;
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+@media screen and (max-width: 1080px) {
+  .historiagrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: "KawaiiStitch";
+    color: azure;
+    text-align: center;
+    background-color: black;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .historiagrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: "KawaiiStitch";
+    color: azure;
+    text-align: center;
+    background-color: black;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .historiagrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: "KawaiiStitch";
+    color: azure;
+    text-align: center;
+    background-color: black;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    justify-content: center;
+    font-size: 10px;
+  }
+}
+
+.imagenconocenos {
+  display: flex;
+  height: 250px;
+  width: 300px;
+}
+
+.producto {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.productomin {
+  display: flex;
+}
+
+.footer {
+  display: grid;
+  background-color: black;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+@media screen and (max-width: 1080px) {
+  .footer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: space-around;
+  }
+}
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(3, 185, 206);
+}
+ul li .footer:hover {
+  color: rgb(255, 77, 216);
+  transition: 500ms;
+}
+
+.copyright {
+  display: flex;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  font-size: 50%;
+  margin-left: 70px;
+}
+@media screen and (max-width: 1080px) {
+  .copyright {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .copyright {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .copyright {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+
+.navfooter {
+  display: flex;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  font-size: 75%;
+  margin-left: 110px;
+}
+@media screen and (max-width: 1080px) {
+  .navfooter {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navfooter {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navfooter {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+
+.logofooter {
+  display: flex;
+  height: 250px;
+  width: 250px;
+  margin-left: 188px;
+  -webkit-margin-after: 45px;
+          margin-block-end: 45px;
+}
+@media screen and (max-width: 1080px) {
+  .logofooter {
+    display: flex;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logofooter {
+    display: flex;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logofooter {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    padding-left: -100px;
+  }
+}
+
+.avisolegal {
+  display: flex;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  fosize: 75%;
+  margin-left: 110px;
+}
+@media screen and (max-width: 1080px) {
+  .avisolegal {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .avisolegal {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .avisolegal {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+
+.contacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "KawaiiStitch";
+  color: azure;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  padding-top: 25px;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+  .contacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: "KawaiiStitch";
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: "KawaiiStitch";
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 25px;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.contactotxt {
+  font-family: "KawaiiStitch";
+  font-size: 30px;
+  color: rgb(255, 77, 216);
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  background-color: black;
+  padding-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .contactotxt {
+    font-family: "KawaiiStitch";
+    font-size: 20px;
+    color: rgb(255, 77, 216);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contactotxt {
+    font-family: "KawaiiStitch";
+    font-size: 20px;
+    color: rgb(255, 77, 216);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+}
+
+.formulario {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: rgb(221, 222, 223);
+  box-shadow: 5px 9px 10px 1px rgba(182, 182, 182, 0.59);
+  padding: 90px;
+  line-height: 10px;
+  justify-content: center;
+  padding: 20px 20px;
+}
+@media screen and (max-width: 800px) {
+  .formulario {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: rgb(221, 222, 223);
+    box-shadow: 5px 9px 10px 1px rgba(182, 182, 182, 0.59);
+    padding: 40px;
+    line-height: 8px;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .formulario {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: rgb(221, 222, 223);
+    box-shadow: 5px 9px 10px 1px rgba(182, 182, 182, 0.59);
+    padding: 40px;
+    line-height: 8px;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+
+.campos {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: rgb(221, 222, 223);
+}
+@media screen and (max-width: 800px) {
+  .campos {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(221, 222, 223);
+  }
+}
+@media screen and (max-width: 400px) {
+  .campos {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(221, 222, 223);
+  }
+}
+
+.fondoprincipal {
+  background-color: black;
+}
+
+.accordion-item {
+  background-color: black;
+}
+
+.textoacordeon {
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+}
+
+.panda {
+  display: block;
+  justify-content: center;
+  background-color: black;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: kawaiistitch;
+  src: url(/Fonts/Kawaii-Stitch.ttf);
+}/*# sourceMappingURL=style.css.map */

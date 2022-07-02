@@ -1,0 +1,174 @@
+.footer {
+  display: grid;
+  background-color: black;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+@media screen and (max-width: 1080px) {
+  .footer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    justify-content: space-around;
+  }
+}
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(3, 185, 206);
+}
+ul li .footer:hover {
+  color: rgb(255, 77, 216);
+  transition: 500ms;
+}
+
+.copyright {
+  display: flex;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  font-size: 50%;
+  margin-left: 70px;
+}
+@media screen and (max-width: 1080px) {
+  .copyright {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .copyright {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .copyright {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+
+.navfooter {
+  display: flex;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  font-size: 75%;
+  margin-left: 110px;
+}
+@media screen and (max-width: 1080px) {
+  .navfooter {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navfooter {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navfooter {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+
+.logofooter {
+  display: flex;
+  height: 250px;
+  width: 250px;
+  margin-left: 188px;
+  -webkit-margin-after: 45px;
+          margin-block-end: 45px;
+}
+@media screen and (max-width: 1080px) {
+  .logofooter {
+    display: flex;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logofooter {
+    display: flex;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logofooter {
+    display: flex;
+    height: 250px;
+    width: 250px;
+    padding-left: -100px;
+  }
+}
+
+.avisolegal {
+  display: flex;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  fosize: 75%;
+  margin-left: 110px;
+}
+@media screen and (max-width: 1080px) {
+  .avisolegal {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .avisolegal {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .avisolegal {
+    display: flex;
+    font-family: "kawaiistitch";
+    color: rgb(3, 185, 206);
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */

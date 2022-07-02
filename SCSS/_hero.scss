@@ -1,0 +1,261 @@
+@import "variables.scss";
+.hero {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+    @media screen and (max-width: 1080px){
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/naruto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+    @media screen and (max-width: 800px) {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/naruto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+    @media screen and (max-width: 400px) {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/naruto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+}
+.heroinicio {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/Totoro\ slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 77, 216);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+    @media screen and (max-width: 1080px) {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/Totoro\ slider.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 40px;
+        color: rgb(255, 77, 216);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+        text-align: center;
+    }
+    @media screen and (max-width: 800px) {
+display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        background-image: url(/Imagen/Totoro\ slider.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 77, 216);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+    @media screen and (max-width: 400px) {
+        display: flex;
+        height: auto;
+        width: 120%;
+        background-image: url(/Imagen/Totoro\ slider.jpg);
+        background-size: cover;
+        background-position: center;
+        font-family: 'KawaiiStitch';
+        font-size: 18px;
+        color: rgb(255, 77, 216);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);  
+    }
+}
+.herocontacto {
+    display: flex;
+    height: auto;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+    background-image: url(/Imagen/envelope.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    justify-content: center;
+    @media screen and (max-width: 1080px) {
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    background-image: url(/Imagen/envelope.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+    @media screen and (max-width: 800px) {
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    background-image: url(/Imagen/envelope.png);
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+    @media screen and (max-width: 400px) {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/envelope.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+}
+.headerhistoria {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(/Imagen/star\ guardian\ jinx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 42%;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px black;
+    justify-content: center;
+    @media screen and (max-width: 1080px) {
+        display: flex;
+        height: 500px;
+        width: 2000px;
+        align-items: center;
+        background-image: url(/Imagen/star\ guardian\ jinx.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px black;
+        justify-content: center;
+    }
+    @media screen and (max-width: 800px) {
+        display: flex;
+        height: 500px;
+        width: 2000px;
+        align-items: center;
+        background-image: url(/Imagen/star\ guardian\ jinx.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px black;
+        justify-content: center;
+    }
+    @media screen and (max-width: 400px) {
+        display: flex;
+        height: 500px;
+        width: 2000px;
+        align-items: center;
+        background-image: url(/Imagen/star\ guardian\ jinx.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px black;
+        justify-content: center;
+    }
+}
+.heropro {
+    display: flex;
+    height: 500px;
+    width: 2000px;
+    align-items: center;
+    background-image: url(/Imagen/tr\ regalos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'KawaiiStitch';
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px black;
+    justify-content: center;
+}

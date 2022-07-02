@@ -1,0 +1,172 @@
+@import "variables.scss";
+.catgaleria {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(4, 1fr);
+    @media screen and (max-width: 1080px){
+        display: grid;
+        background-color: black;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 800px) {
+        display: grid;
+        background-color: black;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    @media screen and (max-width: 400px) {
+        display: grid;
+        background-color: black;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .catgaleria__img {
+        display: flex;
+        width: 350px;
+        height: 350px;
+        margin-top: 25px;
+        margin-left: 30px;
+        border-style: double; color: rgb(255, 77, 216);
+        box-shadow: 5px 5px 15px 5px #ec5aff81;
+        @media screen and (max-width: 1080px) {
+            display: flex;
+            width: 320px;
+            height: 320px;
+            margin-top: 25px;
+            margin-left: 30px;
+            border-style: double; color: rgb(255, 77, 216);
+            box-shadow: 5px 5px 15px 5px #ec5aff81;
+        }
+        @media screen and (max-width: 800px) {
+            display: flex;
+            width: 250px;
+            height: 250px;
+            margin-top: 25px;
+            margin-left: 10px;
+            border-style: double; color: rgb(255, 77, 216);
+            box-shadow: 5px 5px 15px 5px #ec5aff81;
+            align-items: center;
+        }
+        @media screen and (max-width: 400px) {
+            display: flex;
+            width: 150px;
+            height: 150px;
+            margin-top: 25px;
+            margin-left: 10px;
+            border-style: double; color: rgb(255, 77, 216);
+            box-shadow: 5px 5px 15px 5px #ec5aff81;
+            align-items: center;
+        }
+    }
+}
+.catgaleria__titulo {
+    display: flex;
+    text-align: center;
+    font-weight: normal;
+    font-size: 150%;
+    font-family: 'kawaiistitch';
+    color: rgb(3, 185, 206);
+    background-color: black;
+    justify-content: center;
+    padding-top: 20px;
+    @media screen and (max-width: 1080px) {
+        display: flex;
+    text-align: center;
+    font-weight: normal;
+    font-size: 150%;
+    font-family: 'kawaiistitch';
+    color: rgb(3, 185, 206);
+    background-color: black;
+    justify-content: center;
+    padding-top: 20px;
+    }
+    @media screen and (max-width: 800px) {
+        display: flex;
+        text-align: center;
+        font-weight: normal;
+        font-size: 150%;
+        font-family: 'kawaiistitch';
+        color: rgb(3, 185, 206);
+        background-color: black;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    @media screen and (max-width: 400px) {
+        display: flex;
+        text-align: center;
+        font-weight: normal;
+        font-size: 80%;
+        font-family: 'kawaiistitch';
+        color: rgb(3, 185, 206);
+        background-color: black;
+        justify-content: center;
+        padding-top: 20px;
+    }
+}
+.historiagrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'KawaiiStitch';
+    color: azure;
+    text-align: center;
+    background-color: black;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    justify-content: center;
+    @media screen and (max-width: 1080px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: 'KawaiiStitch';
+        color: azure;
+        text-align: center;
+        background-color: black;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        justify-content: center;
+        font-size: 18px
+    }
+    @media screen and (max-width: 800px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-family: 'KawaiiStitch';
+        color: azure;
+        text-align: center;
+        background-color: black;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        justify-content: center;
+        font-size: 18px
+    }
+    @media screen and (max-width: 400px) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-family: 'KawaiiStitch';
+        color: azure;
+        text-align: center;
+        background-color: black;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        justify-content: center;
+        font-size: 10px
+    }
+}
+.imagenconocenos {
+    display: flex;
+    height: 250px;
+    width: 300px;
+}
+.producto {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+.productomin {
+    display: flex;
+    
+}

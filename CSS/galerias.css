@@ -1,0 +1,45 @@
+.catgaleria {
+  display: grid;
+  background-color: black;
+  grid-template-columns: repeat(4, 1fr);
+}
+.catgaleria catgaleria__img {
+  display: flex;
+  width: 350px;
+  height: 350px;
+  margin-top: 25px;
+  margin-left: 30px;
+  border-style: double;
+  color: rgb(255, 77, 216);
+  box-shadow: 5px 5px 15px 5px rgba(236, 90, 255, 0.5058823529);
+}
+.catgaleria catgaleria__titulo {
+  display: flex;
+  text-align: center;
+  font-weight: normal;
+  font-size: 150%;
+  font-family: "kawaiistitch";
+  color: rgb(3, 185, 206);
+  background-color: black;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.historiagrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: "KawaiiStitch";
+  color: azure;
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+
+.imagenconocenos {
+  display: flex;
+  height: 250px;
+  width: 300px;
+}/*# sourceMappingURL=galerias.css.map */
