@@ -311,6 +311,49 @@
         justify-content: center;
         padding-top: 20px;
     }
+    .hero {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/naruto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+    .headerhistoria {
+        display: flex;
+        height: 500px;
+        width: 2000px;
+        align-items: center;
+        background-image: url(/Imagen/star\ guardian\ jinx.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px black;
+        justify-content: center;
+    }
+    .historiagrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: 'KawaiiStitch';
+        color: azure;
+        text-align: center;
+        background-color: black;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        justify-content: center;
+    }
     /* Aquí empieza el footer */
     .footer {
         display: grid;
@@ -379,6 +422,22 @@
         justify-content: center;
         text-align: center;
     }
+    .hero {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/naruto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
     .catgaleria {
         display: grid;
         background-color: black;
@@ -403,6 +462,19 @@
         background-color: black;
         justify-content: center;
         padding-top: 20px;
+    }
+    .historiagrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: 'KawaiiStitch';
+        color: azure;
+        text-align: center;
+        background-color: black;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        justify-content: center;
+        font-size: 18px
     }
     /* Aquí empieza el footer */
     .footer {
@@ -471,6 +543,37 @@
         text-shadow: 1px 1px 10px rgb(0, 0, 0);
         justify-content: center;
     }
+    .hero {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/naruto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        justify-content: center;
+    }
+    .headerhistoria {
+        display: flex;
+        height: 500px;
+        width: 2000px;
+        align-items: center;
+        background-image: url(/Imagen/star\ guardian\ jinx.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px black;
+        justify-content: center;
+    }
     .catgaleria {
         display: grid;
         background-color: black;
@@ -498,6 +601,19 @@
         background-color: black;
         justify-content: center;
         padding-top: 20px;
+    }
+    .historiagrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-family: 'KawaiiStitch';
+        color: azure;
+        text-align: center;
+        background-color: black;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        justify-content: center;
+        font-size: 18px
     }
     /* Aquí empieza el footer */
     .footer {
@@ -619,9 +735,38 @@
         font-family: 'KawaiiStitch';
         font-size: 18px;
         color: rgb(255, 77, 216);
+        text-shadow: 1px 1px 10px rgb(0, 0, 0);  
+    }
+    .hero {
+        display: flex;
+        height: auto;
+        width: 100%;
+        min-height: 500px;
+        align-items: center;
+        background-image: url(/Imagen/naruto.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 18px;
+        color: rgb(255, 255, 255);
         text-shadow: 1px 1px 10px rgb(0, 0, 0);
-        
-        
+        justify-content: center;
+    }
+    .headerhistoria {
+        display: flex;
+        height: 500px;
+        width: 2000px;
+        align-items: center;
+        background-image: url(/Imagen/star\ guardian\ jinx.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 38% 42%;
+        font-family: 'KawaiiStitch';
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 10px black;
+        justify-content: center;
     }
     .catgaleria {
         display: grid;
@@ -651,6 +796,19 @@
         background-color: black;
         justify-content: center;
         padding-top: 20px;
+    }
+    .historiagrid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-family: 'KawaiiStitch';
+        color: azure;
+        text-align: center;
+        background-color: black;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        justify-content: center;
+        font-size: 10px
     }
     /* Aquí empieza el footer */
     .footer {
@@ -754,4 +912,9 @@
 .textoacordeon {
     font-family: 'kawaiistitch';
     color: rgb(3, 185, 206);
+}
+.panda {
+    display: block;
+    justify-content: center;
+    background-color: black;
 }
