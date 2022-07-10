@@ -933,4 +933,21 @@ ul li .footer:hover {
 @font-face {
   font-family: kawaiistitch;
   src: url(/Fonts/Kawaii-Stitch.ttf);
+}
+.btn, .btn-categorias {
+  padding: 15px 50px;
+  border: 0;
+  border-radius: 15px;
+  color: white;
+  font-family: "KawaiiStitch";
+}
+.btn:hover, .btn-categorias:hover {
+  color: rgb(255, 77, 216);
+}
+
+.btn-categorias {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(3, 185, 206);
 }/*# sourceMappingURL=style.css.map */

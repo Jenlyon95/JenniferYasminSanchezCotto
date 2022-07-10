@@ -1,4 +1,13 @@
 @import "variables.scss";
+
+@mixin estiloImagen {
+    width: 350px;
+    height: 350px;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-style: double; color: rgb(255, 77, 216);
+    box-shadow: 5px 5px 15px 5px #ec5aff81;
+}
 .catgaleria {
     display: grid;
     background-color: black;
@@ -24,12 +33,7 @@
     }
     .catgaleria__img {
         display: flex;
-        width: 350px;
-        height: 350px;
-        margin-top: 25px;
-        margin-left: 30px;
-        border-style: double; color: rgb(255, 77, 216);
-        box-shadow: 5px 5px 15px 5px #ec5aff81;
+        @include estiloImagen;
         @media screen and (max-width: 1080px) {
             display: flex;
             width: 320px;

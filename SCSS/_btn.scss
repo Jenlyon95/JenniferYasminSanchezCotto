@@ -1,0 +1,22 @@
+@import "variables.scss";
+
+.btn {
+    padding: map-get($boton , padding);
+    border: map-get($boton, bordes);
+    border-radius: map-get($boton, radio);
+    color: white;
+    font-family: "KawaiiStitch";
+
+    &:hover {
+        color: rgb(255, 77, 216);
+    }
+
+}
+
+.btn-categorias {
+    @extend .btn;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: $colorCyan;
+}
